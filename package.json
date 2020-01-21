@@ -10,11 +10,11 @@
     "lint": "eslint ."
   },
   "dependencies": {
-    "browserify": "^16.2.3",
+    "browserify": "^16.5.0",
     "coverify": "^1.5.1",
     "minimist": "^1.2.0",
     "parents": "^1.0.1",
-    "resolve": "^1.9.0"
+    "resolve": "^1.14.2"
   },
   "repository": {
     "type": "git",
