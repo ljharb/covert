@@ -1,0 +1,17 @@
+{
+    "root": true,
+
+    "extends": "@ljharb",
+
+    "env": {
+        "node": true,
+    },
+
+    "rules": {
+        "func-style": 1,
+        "indent": [2, 4],
+        "max-statements-per-line": [2, { "max": 2 }],
+        "no-console": 0,
+        "no-process-exit": 0,
+    },
+}

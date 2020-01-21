@@ -5,6 +5,10 @@
   "bin": {
     "covert": "bin/cmd.js"
   },
+  "scripts": {
+    "pretest": "npm run lint",
+    "lint": "eslint ."
+  },
   "dependencies": {
     "browserify": "^16.2.3",
     "coverify": "^1.5.1",
@@ -31,5 +35,9 @@
   "engines": {
     "node": ">= 0.6"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@ljharb/eslint-config": "^15.1.0",
+    "eslint": "^6.8.0"
+  }
 }
